@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Huffmanovo stablo</title>
+        <link rel="stylesheet" type="text/css" href="./index.css">
+        <script type="text/javascript" src="./index.js"></script>
+    </head>
+    <body>
+        <div class="head" id="big-head">Virtualizacija Huffmanovog stabla</div>
+        <div class="control-holder" id="tree-controls">
+            <div class="control"><div class="button" id="reset">Resetiraj</div></div>
+            <div class="control"><div class="button" id="build-tree">Napravi stablo</div></div>
+            <div class="control">Text:<input type="text" id="tree-text"></div>
+            <div class="mask"></div>
+        </div>
+        <canvas id="anim-canvas"></canvas>
+        <div class="control-holder" id="anim-controls">
+            <div class="control add-right">W:<input type="number" id="canvas-w">px</div>
+            <div class="control add-right">H:<input type="number" id="canvas-h">px</div>
+            <div class="control add-right"><div class="button" id="change-size">Promjeni velicinu canvasa</div></div>
+        </div>
+        <div class="head" id="small-head">Poduzeti koraci</div>
+        <div class="steps"></div>
+    </body>
+</html>
