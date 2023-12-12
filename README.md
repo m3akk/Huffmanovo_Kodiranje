@@ -1,6 +1,7 @@
 # Visualization of Huffman coding
 
 A web application that simulates the working principle of Huffman coding
+
 Programming language: Java Script
 
 
